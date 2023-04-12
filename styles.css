@@ -271,9 +271,10 @@ footer > a {
     color: var(--color_white);
 }
 
-.contact_me > button {
-    color: var(--color_orange);
-    font-family: var(--font_titles);
-    background-color: var(--color_white);
-    border-color: var(--color_orange);
+.contact_me-link {
+  color: var(--color_orange);
+  font-family: var(--font_titles);
+  /* background-color: var(--color_white); */
+  text-decoration: none;
+  border: 2px solid var(--color_orange);
 }
