@@ -5,74 +5,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"/>
-    <title>Brainnest Portfolio</title>
+    <title>Cera Kocher Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./images/favicon.ico">
 </head>
 
 <body>
-    <nav>
-        <h2>Cera Kocher</h1>
-            <a href="#about_me">About Me</a> 
-            <a href="#work">Work</a> 
-            <a href="#contact_me">Contact Me</a> 
-    </nav>
-    <header>
-        <img src="./images/akira_02.jpg" alt="group of darkly dressed dancers">
-        <h1>Creative Director</h1>
-        <hr>
-    </header>
-    <section class="about_me" id="about_me">
-        <h3>Key - Professional Dreamer</h3>
-        <p>
-            I have always been a dreamer. Ever since I was little I had grand ideas and grand ways I imaginged
-            my life to be lived. I strive to show this in my work and by working with clients to tell stories
-            and naratives with big ideas and visions for quality work.
-        </p>
-        <figure>
+    <div class="wrapper">
+        <header>
+            <h2 class="header__logo">Cera Kocher</h2>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+            <img src="./images/akira_02.jpg" alt="group of darkly dressed dancers" class="header__img">
+
+            <h3 class="header__title section__titleh3">CREATIVE DIRECTOR</h3>
+            <hr>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h3 class="section__title section__titleh3">Key - Professional Dreamer</h3>
+            <p>
+                I've always been a dreamer. Ever since I was little I had grand ideas and grand ways I imaginged
+                my life to be lived. I strive to show this in my work and by working with clients to tell stories
+                and naratives with big ideas and visions for quality work.
+            </p>
+        </section>
+
+        <!-- About Me -->
+        <section class="about_me" id="about_me">
             <img src="./images/headshot.png" alt="headshot of Cera Kocher">
-        </figure>
-        <div class="about_me_side_bar">
-            <h3>Creative Director</h3>
-            <p>Work includes branding, shooting photos, and creating integrated campaigns.
-                Hobbies include web development, martial arts and traveling.</p>
-            <p>Vices include binge watching Netflix.</p>
-            <p>Catch me on the ‘gram or drop a line at cerakocher.media@gmail.com</p>
-            <div class="about_me_socials">
-                <img src="./images/instagram_logo.svg" alt="Instagram logo"
-                    href="https://www.instagram.com/cera.contesse/">
-                <img src="./images/github_logo.png" alt="Github logo" href="https://github.com/juniperfawn">
-                <img src="./images/youtube_logo.svg" alt="Youtube logo"
-                    href="https://www.youtube.com/@ceracontesse4191">
+            <div class="about_me_side_bar">
+                <h3 class="section__title section__titleh3">CREATIVE DIRECTOR</h3>
+                <p>Work includes branding, shooting photos, and creating integrated campaigns.
+                    Hobbies include web development, martial arts and traveling.</p>
+                <p>Vices include binge watching Netflix.</p>
+                <p>Catch me on the ‘gram or drop a line at <strong><a href="mailto:cerakocher.media@gmail.com"
+                            class="">cerakocher.media@gmail.com</a></strong> </p>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.instagram.com/cera.contesse/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/juniperfawn" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.youtube.com/@ceracontesse4191" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <section class="portfolio_work" id="work">
-        <div class="portfolio_work_funhous">
-            <img src="./images/funhous_01.jpg" alt="detail body shot of model wearing warm tone outfit">
-            <img src="./images/funhous_02.jpg" alt="full body shot of two models posing while wearing green monochrome outfits">
-            <img src="./images/funhous_03.jpg" alt="model posing while wearing brown monochrome outfit">
-            <img src="./images/funhous_04.jpg" alt="headshot of model wearing bold black and white outfit">
-        </div>
-        <hr>
-        <h3>Studio & On Set Shooting</h3>
-        <p>To me, portraiture is about taking care of people. I work very hard to create an environment that is
-            comfortable,
-            invlusive, and creative on every shoot. This allows both my subject and I to be our most creative selves.
-        </p>
-        <div class="portfolio_work_akira">
-            <img src="./images/akira_01.png" alt="group of dancers performing for videographer">
-            <img src="./images/akira_02.jpg" alt="front shot of group of darkly dressed dancers">
-            <img src="./images/akira_03.jpg" alt="portrait shot of dancers">
-            <img src="./images/akira_04.jpg" alt="shot of videographer checking camera footage">
-            <img src="./images/akira_05.jpg" alt="director of choreopgraphy and director of photography standing together">
-        </div>
-    </section>
-    <section class="contact_me" id="contact_me">
-        <hr>
-        <h3>Let's Tell Your Story</h3>
-        <p>Eager to have your vision come to life? Reach out and let’s collaborate on how we can execute your story.</p>
-        <button>Contact Me</button>
-    </section>
+        </section>
+
+        <!-- Work -->
+        <section class="portfolio_work" id="work">
+            <h2 class="section__title section__titleh2">THE WORK</h2>
+            <div class="portfolio_work_funhous">
+                <div class="title">
+                    <h3 class="section__title section__titleh3">FUNHOUS X BMH</h3>
+                    <h2 class="section__title section__titleh2">STUDIO</h2>
+                </div>
+                <img src="./images/funhous_01.jpg" alt="detail body shot of model wearing warm tone outfit">
+                <img src="./images/funhous_02.jpg"
+                    alt="full body shot of two models posing while wearing green monochrome outfits">
+                <img src="./images/funhous_03.jpg" alt="model posing while wearing brown monochrome outfit">
+                <img src="./images/funhous_04.jpg" alt="headshot of model wearing bold black and white outfit">
+            </div>
+            <hr>
+            <h3 class="section__title section__titleh3">Studio & On Set Shooting</h3>
+            <p>To me, portraiture is about taking care of people. I work very hard to create an environment that is
+                comfortable,
+                invlusive, and creative on every shoot. This allows both my subject and I to be our most creative
+                selves.
+            </p>
+            <div class="portfolio_work_akira">
+                <div class="title">
+                    <h3 class="section__title section__titleh3">AKIRA DANCE X BMH</h3>
+                    <h2 class="section__title section__titleh2">CHOREOGRAPHY</h2>
+                </div>
+                <img src="./images/akira_01.png" alt="group of dancers performing for videographer">
+                <img src="./images/akira_02.jpg" alt="front shot of group of darkly dressed dancers">
+                <img src="./images/akira_03.jpg" alt="portrait shot of dancers">
+                <img src="./images/akira_04.jpg" alt="shot of videographer checking camera footage">
+                <img src="./images/akira_05.jpg"
+                    alt="director of choreopgraphy and director of photography standing together">
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section class="contact_me" id="contact_me">
+            <hr>
+            <h3 class="section__title section__titleh3">Let's Tell Your Story</h3>
+            <p>Eager to have your vision come to life? Reach out and let’s collaborate on how we can execute your story.
+            </p>
+            <a href="mailto:cerakocher.media@gmail.com" class="contact_me-link">Contact Me</a>
+        </section>
+    </div>
+
     <footer>
         <a href="#about_me">back to top</a>
     </footer>
