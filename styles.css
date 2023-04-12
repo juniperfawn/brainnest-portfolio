@@ -1,33 +1,110 @@
-:root{
-    --color_orange: #E04622;
-    --color_white: #FFFFFF;
-    --color_black: #000000;
-    --color_dark_gray: #1E1E1E;
-    --font_titles: 'Arial Black';
-    --font_paragraph: 'Avenir Next';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-nav a, h2{
-    font-family: var(--font_titles);
-    color: var(--color_orange);
-    text-decoration: none;
+/* Custom Properties*/
+
+:root {
+  --color_orange: #e04622;
+  --color_white: #ffffff;
+  --color_black: #000000;
+  --color_dark_grey: #1e1e1e;
+
+  --font_titles: 'Arial Black';
+  --font_paragraph: 'Nunito Sans', sans-serif;
+
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.25rem;
+  --font-size-h3: 1.25rem;
+  --font-size-body: 1rem;
 }
 
-h3{
-    font-family: var(--font_titles);
-    color: var(--color_orange);
+@media (min-width: 800px) {
+  :root {
+    --font-size-h1: 4.5rem;
+    --font-size-h2: 3.75rem;
+    --font-size-h3: 1.5rem;
+    --font-size-body: 1.125rem;
+  }
 }
 
-p{
-    font-family: var(--font_paragraph);
+/* General Styles*/
+
+body {
+  background: var(--color_dark_grey);
+  color: var(--color_white);
+  margin: 0;
+  font-family: var(--font_paragraph);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
 }
 
-hr{
-    border: none;
-    width: 80%;
-    background-color: var(--color_orange);
-    height: 5px;
+img {
+  display: block;
+  max-width: 100%;
 }
+
+hr {
+  border: none;
+  width: 80%;
+  background-color: var(--color_orange);
+  height: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: var(--color_white);
+    color: var(--color_black);
+  }
+
+  .wrapper {
+    margin: 30px 50px;
+  }
+}
+
+/* Typography*/
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+h2 {
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+.section__title {
+  margin: 0;
+  font-size: var(--font-size-h3);
+  color: var(--color_orange);
+  font-family: var(--font_titles);
+  margin-bottom: 0.25em;
+}
+
+.section__titleh2 {
+  font-size: var(--font-size-h2);
+}
+
+.section__titleh3 {
+  font-size: var(--font-size-h3);
+}
+
+
+
 
 footer{
     background-color: var(--color_orange);
