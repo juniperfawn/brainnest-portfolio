@@ -283,6 +283,44 @@ header hr,
   margin: 30px;
 }
 
+  /*---------------ABOUT ME--------------------*/
+
+  .about_me{
+    display: grid;
+    grid-template-areas: 
+      "div img";
+  }
+
+  .about_me_side_bar{
+    background-color: #E04622;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 90%;
+    align-self: center;
+  }
+
+  .about_me_img{
+    position: relative;
+    z-index: 1;
+    left: 40%;
+    width: 70%;
+    height: auto;
+  }
+
+  .about_me_side_bar > ul > li > a >i{
+    color: #FFFFFF;
+  }
+
+  .about_me_side_bar > h3{
+    color: #FFFFFF;
+  }
+
+  .email{
+    color: #FFFFFF;
+    text-decoration: none;
+  }
   
   /*---------------WORK--------------------*/
   
