@@ -14,12 +14,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="./images/favicon.ico">
+    <script src="./index.js" defer></script>
 </head>
 
 <body>
     <div class="wrapper">
         <header>
-            <h2 class="header__logo">Cera Kocher</h2>
+            <h2 class="header__logo" id="logo">Cera Kocher</h2>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
@@ -30,7 +31,12 @@
                     <li class="nav__item"><a href="#contact_me" class="nav__link">CONTACT ME</a></li>
                 </ul>
             </nav>
-            <img src="./images/akira_02.jpg" alt="group of darkly dressed dancers" class="header__img">
+
+            <picture class="header__img">
+                <source media="(max-width: 600px)" srcset="./images/akira_cover_crop.png">
+                <source media="(min-width: 600px)" srcset="./images/akira_02.jpg">
+                <img src="./images/akira_02.jpg" alt="group of darkly dressed dancers" class="header__img">
+              </picture>
 
             <h3 class="header__title uppercase">Creative Director</h3>
             <hr>
@@ -48,14 +54,13 @@
 
         <!-- About Me -->
         <section class="about_me" id="about_me">
-            <img src="./images/headshot.png" alt="headshot of Cera Kocher">
             <div class="about_me_side_bar">
                 <h3 class="section__title section__titleh3">CREATIVE DIRECTOR</h3>
                 <p>Work includes branding, shooting photos, and creating integrated campaigns.
                     Hobbies include web development, martial arts and traveling.</p>
                 <p>Vices include binge watching Netflix.</p>
                 <p>Catch me on the ‘gram or drop a line at <strong><a href="mailto:cerakocher.media@gmail.com"
-                            class="">cerakocher.media@gmail.com</a></strong> </p>
+                            class="email">cerakocher.media@gmail.com</a></strong> </p>
                 <ul class="social-list">
                     <li class="social-list__item">
                         <a class="social-list__link" href="https://www.instagram.com/cera.contesse/" target="_blank">
@@ -74,6 +79,7 @@
                     </li>
                 </ul>
             </div>
+            <img src="./images/headshot.png" alt="headshot of Cera Kocher" class="about_me_img">
         </section>
 
         <!-- Work -->
@@ -131,7 +137,7 @@
     </div>
 
     <footer>
-        <a href="#nav">back to top</a>
+        <a href="#logo">back to top</a>
     </footer>
 </body>
 
