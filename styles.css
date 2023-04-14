@@ -380,7 +380,46 @@ header > hr {
   margin: 30px;
 }
 
+
+  
+  /*---------------WORK--------------------*/
+
+  .section__title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .section__titleh3{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background: teal;
+    padding: 15px;
+  }
+  .container img {
+    width: 100%;
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 100ms ease-out;
+  }
+  .container img:hover {
+    transform: scale(1.04);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  /*---------------CONTACT ME--------------------*/
+  
+  /*---------------FOOTER----------------------*/
+
 /*---------------ABOUT ME--------------------*/
+
 
 .about_me {
   display: flex;
