@@ -31,8 +31,12 @@
                     <li class="nav__item"><a href="#contact_me" class="nav__link">CONTACT ME</a></li>
                 </ul>
             </nav>
-            <img src="./images/akira_02.jpg" alt="group of darkly dressed dancers" class="header__img">
-            <img src="./images/akira_cover_crop.png" alt="group of darkly dressed dancers" class="header__img-mobile">
+
+            <picture class="header__img">
+                <source media="(max-width: 600px)" srcset="./images/akira_cover_crop.png">
+                <source media="(min-width: 600px)" srcset="./images/akira_02.jpg">
+                <img src="./images/akira_02.jpg" alt="group of darkly dressed dancers" class="header__img">
+              </picture>
 
             <h3 class="header__title uppercase">Creative Director</h3>
             <hr>
