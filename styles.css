@@ -121,6 +121,8 @@ h3 {
 }
 
 /*---------------HEADER----------------------*/
+
+
 header {
   position: relative;
   display: grid;
@@ -155,6 +157,10 @@ header {
   align-self: start;
   justify-self: end;
   margin: 10px 3px;
+}
+
+.nav__link:hover {
+  color: var(--color_dark_grey);
 }
 
 .header__title {
@@ -206,10 +212,6 @@ header > hr {
     font-family: var(--font_titles);
     font-size: var(--font-size-h3);
     text-decoration: none;
-  }
-
-  .nav__link:hover {
-    color: var(--color_dark_grey);
   }
 
   .nav-toggle {
