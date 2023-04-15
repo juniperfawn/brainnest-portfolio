@@ -5,6 +5,7 @@
  <img alt="YOUR-ALT-TEXT" src="./images/cera-fortfolio-responsive.png">
 </picture>
 
+
 <br>
 
 # Visit the website: https://juniperfawn.github.io/brainnest-portfolio/ 
@@ -51,6 +52,11 @@
 
 # Our Participant who contributet to development of the website
 ### Team Members:<br>
+
+live Site: https://juniperfawn.github.io/brainnest-portfolio/
+
+Team Members:<br>
+
 -António José Mata Quaresma<br>
 -Cera Kocher<br>
 -Lucas Coutinho de Assis<br>
