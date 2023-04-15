@@ -22,10 +22,6 @@
 # Client Order.
 <picture>
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="YOUR-ALT-TEXT" src="./images/portfolio-client.png">
- <img alt="YOUR-ALT-TEXT" src="./images/portfolio tablet-client.png">
- <img alt="YOUR-ALT-TEXT" src="./images/portfolio mobile-client.png">
-
 </picture>
 
 <br>
