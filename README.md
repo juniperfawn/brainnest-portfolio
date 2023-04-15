@@ -1,13 +1,13 @@
 # brainnest-portfolio
-# portfolio about Cera as Creative Director and Proffssional Dreamer 
+# Portfolio about Cera as Creative Director and Proffssional Dreamer 
 <picture>
  <source media="(prefers-color-scheme: light)"          srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="YOUR-ALT-TEXT" src="./images/favicon.ico">
+ <img alt="YOUR-ALT-TEXT" src="./images/cera-fortfolio-responsive.png">
 </picture>
 
 <br>
 
-# Visit the website: url 
+# Visit the website: https://juniperfawn.github.io/brainnest-portfolio/ 
 <br>
 <br>
 
@@ -22,12 +22,13 @@
 # Client Order.
 <picture>
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="./images/portfolio-client.png">
 </picture>
 
 <br>
 <br>
 
-#  Lighhouse checker 
+#  Ligthouse checker 
 
 * Performance <br> speed which website  upload and shows on the browser 
 * Accsessbillity <br> for disabilie people to navigate website
@@ -36,7 +37,7 @@
 
 <picture>
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="YOUR-ALT-TEXT" src="">
+ <img alt="YOUR-ALT-TEXT" src="./images/lighthouse-checker.png">
 </picture>
 
 <br>
