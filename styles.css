@@ -387,6 +387,7 @@ header > hr {
   .section__title{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .section__titleh3{
@@ -468,6 +469,33 @@ header > hr {
     grid-row: 3/4;
     height: 100%;
     width: 100%;
+  }
+
+
+  @media (max-width: 600px) {
+    .gallery {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+      margin: 50px;
+    }
+    
+    .gallery img {
+      grid-column: 1;
+      grid-row: auto;
+      height: auto;
+    }
+    
+    .gallery2 {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+      margin: 60px;
+    }
+    
+    .gallery2 img {
+      grid-column: 1;
+      grid-row: auto;
+      height: auto;
+    }
   }
 
   /*---------------CONTACT ME--------------------*/
